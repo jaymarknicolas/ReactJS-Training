@@ -1,4 +1,4 @@
-## **2. Setting Up a React Development Environment**
+## **1. Setting Up a React Development Environment**
 ### **Discussion:**  
 - Node.js and npm/yarn installation  
 - Choosing a React setup: Vite vs. Create React App (CRA)  
@@ -27,7 +27,7 @@ npm run dev
 - Faster development server and optimized builds  
 - Minimal configuration needed  
 
-## **3. Understanding React Folder Structure**
+## **2. Understanding React Folder Structure**
 ### **Discussion:**  
 - Overview of a well-structured React project  
 - Importance of modularizing components  
@@ -57,7 +57,7 @@ You are working in a team building a complex React application. Without a struct
 
 ---
 
-## **4. Running and Debugging the React App**
+## **3. Running and Debugging the React App**
 ### **Discussion:**  
 - Starting the development server  
 - Debugging with React Developer Tools  
@@ -69,7 +69,7 @@ You encounter an issue where a component is not rendering. Using React Developer
 
 ---
 
-## **5. Building and Deploying the React App**
+## **4. Building and Deploying the React App**
 ### **Discussion:**  
 - Generating a production build  
 - Hosting on platforms like Netlify, Vercel, and GitHub Pages  

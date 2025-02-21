@@ -69,13 +69,13 @@ const FormExample = () => {
 export default FormExample;
 ```
 
-🚨 Problem:
+Analogy: Why Use useState?
 
-The variable count updates inside the increase function.
+Imagine you’re writing on a whiteboard.
 
-But React does not re-render the component, so the UI still shows 0.
+Using a regular variable is like writing on the board with invisible ink – when the teacher (React) comes back, your writing is gone!
 
-The change is lost when the component re-renders.
+Using useState is like writing with a permanent marker – even when the teacher (React) checks the board again, your writing is still there.
 
 **Explanation:**  
 - The input value updates dynamically with `onChange`.  

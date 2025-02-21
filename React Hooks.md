@@ -48,6 +48,15 @@ export default Counter;
 - `useState(0)` initializes `count` to `0`.  
 - Clicking the button updates `count` using `setCount`.  
 
+
+Analogy: Why Use useState?
+
+Imagine you’re writing on a whiteboard.
+
+Using a regular variable is like writing on the board with invisible ink – when the teacher (React) comes back, your writing is gone!
+
+Using useState is like writing with a permanent marker – even when the teacher (React) checks the board again, your writing is still there.
+
 ---
 
 ### **Example 2: Form Handling with useState**
@@ -69,13 +78,7 @@ const FormExample = () => {
 export default FormExample;
 ```
 
-Analogy: Why Use useState?
 
-Imagine you’re writing on a whiteboard.
-
-Using a regular variable is like writing on the board with invisible ink – when the teacher (React) comes back, your writing is gone!
-
-Using useState is like writing with a permanent marker – even when the teacher (React) checks the board again, your writing is still there.
 
 **Explanation:**  
 - The input value updates dynamically with `onChange`.  

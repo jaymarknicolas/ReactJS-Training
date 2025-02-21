@@ -68,6 +68,15 @@ const FormExample = () => {
 
 export default FormExample;
 ```
+
+🚨 Problem:
+
+The variable count updates inside the increase function.
+
+But React does not re-render the component, so the UI still shows 0.
+
+The change is lost when the component re-renders.
+
 **Explanation:**  
 - The input value updates dynamically with `onChange`.  
 

@@ -9,6 +9,21 @@
 ### **Scenario:**  
 You join a React project where modern JavaScript syntax is used. Without understanding ES6, debugging and writing code becomes difficult.  
 
+
+Here’s the ES5 vs. ES6 comparison in a tabular format:  
+
+| Feature               | ES5 (Normal JS) | ES6 (Modern JS) |
+|-----------------------|----------------|-----------------|
+| **Variable Declaration** | `var name = "John";` | `let name = "John";`<br>`const age = 30;` |
+| **Function Expression** | `var add = function(a, b) { return a + b; };` | `const add = (a, b) => a + b;` |
+| **String Concatenation** | `var greeting = "Hello, " + name;` | `const greeting = `Hello, ${name}`;` |
+| **Looping** | `for (var i = 0; i < numbers.length; i++) { console.log(numbers[i]); }` | `for (let num of numbers) { console.log(num); }` |
+| **Callback Function** | `function fetchData(callback) { setTimeout(function() { callback("Data"); }, 2000); }` | `const fetchData = () => new Promise(resolve => setTimeout(() => resolve("Data"), 2000));` |
+| **Object Properties** | `var person = { name: name, age: age };` | `const person = { name, age };` |
+| **Default Parameters** | `function multiply(a, b) { b = (b !== undefined) ? b : 1; return a * b; }` | `const multiply = (a, b = 1) => a * b;` |
+
+This cleanly highlights the improvements in ES6. Let me know if you need modifications! 🚀
+
 ---
 
 ## **2. `let` and `const` (Block-Scoped Variables)**  
